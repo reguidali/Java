@@ -8,7 +8,7 @@ public class myBinarySearch {
 
         int[] array = {1, 4, 7, 9, 3, 2, 19, 17, 45, 70, 32, 44, 5};
         int size = array.length;
-        Arrays.sort(array); // O(log n)
+        Arrays.sort(array); // O(n log n)
 
         int target = 19;
 
