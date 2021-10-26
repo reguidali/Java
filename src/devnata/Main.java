@@ -1,16 +1,12 @@
 package devnata;
 
+import hackerrank.Arrays2ndMax;
+import hackerrank.BinarySearch;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.SimpleTimeZone;
-
-import static hackerrank.Arrays2ndMax.secondBigNumber;
-import static hackerrank.CountingSort.countingSort;
-import static hackerrank.DiagonalMatrixSum.diagonalDifference;
-import static hackerrank.Palindromo.isPalindromo;
-import static hackerrank.StringWithin.contains;
-import static hackerrank.myBinarySearch.binarySearch;
 
 public class Main {
 
@@ -98,11 +94,14 @@ public class Main {
 //            System.out.println("String2 não existe em String1");
 //        }
 //SECOND-BIGGEST NUMBER IN AN ARRAY
-//        int[] array = {1,3,5,8,11};
-//        int[] array2 = {10,5,6};
-//        System.out.println(secondBigNumber(array, array2));
+        var merge = new Arrays2ndMax();
+        int[] array = {1,3,5,8,11};
+        int[] array2 = {10,5,6};
+        System.out.println(merge.secondBigNumber(array, array2));
+
 //BINARY SEARCH
-        binarySearch();
+//        var search = new BinarySearch();
+//        search.binarySearch();
     }
 }
 

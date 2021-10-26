@@ -2,7 +2,7 @@ package hackerrank;
 
 import java.util.Arrays;
 
-public class myBinarySearch {
+public class BinarySearch {
 
     public static void binarySearch() {
 
@@ -18,7 +18,7 @@ public class myBinarySearch {
         while (head <= tale) { //O(log n)
             int middle = (head + tale) / 2;
             if(target == array[middle]){
-                System.out.println("Target " + target + " is in" + middle + "position of the array.");
+                System.out.println("Target " + target + " is in " + middle + " position of the array.");
                 return;
             } else if(target > array[middle]) {
                 head = middle + 1;
