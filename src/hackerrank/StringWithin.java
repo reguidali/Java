@@ -6,8 +6,8 @@ public class StringWithin {
 
     public static boolean contains(String string1, String string2){
 
-        string1= string1.toLowerCase();
-        string2=string2.toLowerCase();
+        string1 = string1.toLowerCase();
+        string2 = string2.toLowerCase();
 
         //obvious response:
         if(string1.contains(string2)){

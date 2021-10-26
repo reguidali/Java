@@ -13,7 +13,7 @@ public class Palindromo {
         //optimized
 
         for (int i = 0; i < length; i++) {          //O(n)
-            if (palindromo.charAt(i) == palindromo.charAt(length - i)) {
+            if (palindromo.charAt(i) == palindromo.charAt(length - i)) {  //a[0] = a[n] ... a[1] = a[n-1]...
                 count++;
             }
         }

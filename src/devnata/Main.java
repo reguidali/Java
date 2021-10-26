@@ -2,6 +2,7 @@ package devnata;
 
 import hackerrank.Arrays2ndMax;
 import hackerrank.BinarySearch;
+import hackerrank.Palindromo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -82,11 +83,12 @@ public class Main {
 //        arr.add(row3);
 //        diagonalDifference(arr);
 //PALINDROMO
-//        if(isPalindromo("arara")){
-//            System.out.println("Palindromo");
-//        } else {
-//            System.out.println("Não é Palíndromo");
-//        }
+        var palindromo = new Palindromo();
+        if(palindromo.isPalindromo("arara")){
+            System.out.println("Palindromo");
+        } else {
+            System.out.println("Não é Palíndromo");
+        }
 //STRING WITHIN
 //        if(contains("corpo intensivo","corpo")){
 //            System.out.println("String2 existe em String1");
