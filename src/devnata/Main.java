@@ -1,7 +1,13 @@
 package devnata;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.List;
+import java.util.SimpleTimeZone;
+
+import static hackerrank.DiagonalMatrixSum.diagonalDifference;
+import static hackerrank.Palindromo.isPalindromo;
+import static hackerrank.StringWithin.contains;
 
 public class Main {
 
@@ -46,18 +52,48 @@ public class Main {
 //        for(int i = 0;i < b.length; i++){
 //            b[i].printAccounts();
 //        }
-        System.out.println("-----------");
-        System.out.println("Inheritance Exercise:");
+//        System.out.println("-----------");
+//        System.out.println("Inheritance Exercise:");
+//
+//        ModArrayList list = new ModArrayList();
+//        list.add(0);
+//        list.add(20);
+//        list.add(3);
+//
+//        System.out.println(list.getUsingMod(1));
+//        System.out.println(list.getUsingMod(0));
+//        System.out.println(list.getUsingMod(-2));
 
-        ModArrayList list = new ModArrayList();
-        list.add(0);
-        list.add(20);
-        list.add(3);
-
-        System.out.println(list.getUsingMod(1));
-        System.out.println(list.getUsingMod(0));
-        System.out.println(list.getUsingMod(-2));
-
+//COUNTING SORT
+//        List<Integer> arr = new ArrayList<Integer>();
+//        arr.add(1);
+//        arr.add(2);
+//        arr.add(3);
+//        arr.add(2);
+//        arr.add(1);
+//
+//        countingSort(arr);
+//DIAGONAL MATRIX SUM
+//        List<List<Integer>> arr = new ArrayList<List<Integer>>();
+//        List<Integer> row1 = new ArrayList<Integer>(Arrays.asList(1,2,3));
+//        List<Integer> row2 = new ArrayList<Integer>(Arrays.asList(4,5,6));
+//        List<Integer> row3 = new ArrayList<Integer>(Arrays.asList(7,8,9));
+//        arr.add(row1);
+//        arr.add(row2);
+//        arr.add(row3);
+//        diagonalDifference(arr);
+//PALINDROMO
+//        if(isPalindromo("arara")){
+//            System.out.println("Palindromo");
+//        } else {
+//            System.out.println("Não é Palíndromo");
+//        }
+//STRING WITHIN
+        if(contains("corpo intensivo","corpo")){
+            System.out.println("String2 existe em String1");
+        }else{
+            System.out.println("String2 não existe em String1");
+        }
     }
 }
 
