@@ -21,7 +21,7 @@ public class Arrays2ndMax {
             arrayMerge[array.length+j] = array2[j];
         }
 
-       // Arrays.sort(arrayMerge); //O(nˆ2)
+       Arrays.sort(arrayMerge); //O(nˆ2)
 
         System.out.println(Arrays.toString(arrayMerge));
 
