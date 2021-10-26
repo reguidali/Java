@@ -5,9 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.SimpleTimeZone;
 
+import static hackerrank.Arrays2ndMax.secondBigNumber;
+import static hackerrank.CountingSort.countingSort;
 import static hackerrank.DiagonalMatrixSum.diagonalDifference;
 import static hackerrank.Palindromo.isPalindromo;
 import static hackerrank.StringWithin.contains;
+import static hackerrank.myBinarySearch.binarySearch;
 
 public class Main {
 
@@ -71,8 +74,8 @@ public class Main {
 //        arr.add(3);
 //        arr.add(2);
 //        arr.add(1);
-//
-//        countingSort(arr);
+//        System.out.println(countingSort(arr));
+
 //DIAGONAL MATRIX SUM
 //        List<List<Integer>> arr = new ArrayList<List<Integer>>();
 //        List<Integer> row1 = new ArrayList<Integer>(Arrays.asList(1,2,3));
@@ -89,11 +92,17 @@ public class Main {
 //            System.out.println("Não é Palíndromo");
 //        }
 //STRING WITHIN
-        if(contains("corpo intensivo","corpo")){
-            System.out.println("String2 existe em String1");
-        }else{
-            System.out.println("String2 não existe em String1");
-        }
+//        if(contains("corpo intensivo","corpo")){
+//            System.out.println("String2 existe em String1");
+//        }else{
+//            System.out.println("String2 não existe em String1");
+//        }
+//SECOND-BIGGEST NUMBER IN AN ARRAY
+//        int[] array = {1,3,5,8,11};
+//        int[] array2 = {10,5,6};
+//        System.out.println(secondBigNumber(array, array2));
+//BINARY SEARCH
+        binarySearch();
     }
 }
 

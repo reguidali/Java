@@ -7,7 +7,7 @@ public class Employee {
     private String location;
     protected Department department;
 
-    Employee(String name,int age, double salary,String location,Department department){
+    public Employee(String name,int age, double salary,String location,Department department){
         this.name = name;
         this.age = age;
         this.salary = salary;
